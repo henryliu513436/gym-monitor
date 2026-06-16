@@ -46,7 +46,7 @@ def save_state(state):
 
 def in_active_window(now):
     start = now.replace(hour=7, minute=0, second=0, microsecond=0)
-    end   = now.replace(hour=20, minute=40, second=0, microsecond=0)
+    end   = now.replace(hour=23, minute=0, second=0, microsecond=0)
     return start <= now <= end
 
 def main():
