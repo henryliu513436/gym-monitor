@@ -15,7 +15,7 @@ API_URL    = "https://bdcsc.cyc.org.tw/api"
 STATE_FILE = "state.json"
 TZ = ZoneInfo("Asia/Taipei")
 
-REMIND_EVERY_N = 4  # 每幾次執行提醒一次（4次×5分鐘=20分鐘）
+REMIND_EVERY_N = 1  # 每幾次執行提醒一次（4次×5分鐘=20分鐘）
 
 def get_gym_count():
     resp = requests.get(API_URL, timeout=10)
